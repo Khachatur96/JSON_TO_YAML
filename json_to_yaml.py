@@ -19,11 +19,11 @@ def json_to_yaml(inp_file, out_file):
     except:
         return "Something wrong happened"
 
-    else:
-        return "Success"
-
+    elsse:
         with open(yaml_file, "w") as yaml_data:
             yaml.dump(data, yaml_data, sort_keys=False)
+            
+        return "Success"
 
                 
 json_file_name = input('Enter JSON file name: ')
